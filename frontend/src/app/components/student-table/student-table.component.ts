@@ -33,6 +33,7 @@ export class StudentTableComponent implements OnInit {
     };
     this.router.navigate(['editStudent'], navigationExtras )
   }
+ 
 
   getStudentData(){
     this.service.getStudentData().subscribe((response)=>{
